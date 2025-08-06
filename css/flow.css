@@ -1,0 +1,40 @@
+/* Mengatur margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font dasar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Mengatur gaya figure */
+figure {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* Mengatur gaya gambar */
+.gambar-tugas {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Mengatur gaya keterangan */
+figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
